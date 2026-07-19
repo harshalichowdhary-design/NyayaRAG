@@ -50,7 +50,7 @@ The original judgments are preserved in their raw form within this repository.
 
 ## Repository Structure
 
-```
+```text
 NyayaRAG/
 │
 ├── data/
@@ -60,14 +60,8 @@ NyayaRAG/
 │               └── english/
 │
 ├── notebooks/
-│   ├── 01_Dataset_Acquisition.ipynb
-│   ├── 02_Metadata_Exploration.ipynb
-│   ├── 03_PDF_Exploration.ipynb
-│   ├── 04_Text_Extraction.ipynb
-│   ├── 05_Corpus_Preprocessing.ipynb
-│   ├── 06_Corpus_EDA.ipynb
-│   ├── 07_Text_Chunking.ipynb
-│   └── 08_Comparative_Retrieval_Models.ipynb
+│   ├── 01_NYAYaRAG_Data_Preparation_and_Indexing.ipynb
+│   └── 02_NYAYaRAG_Model_Evaluation_and_Statistical_Analysis.ipynb
 │
 ├── README.md
 └── .gitignore
@@ -83,18 +77,26 @@ NyayaRAG/
 - Text extraction completed
 - Corpus preprocessing completed
 - Exploratory Data Analysis completed
-- Retrieval model implementation in progress
+- Text chunking completed
+- Dense embedding generation completed
+- ChromaDB vector database created
+- Retrieval model evaluation in progress
 
 ---
 
 ## Future Work
 
-- Dense embedding generation
+
+- Sample size calculation and statistical justification
+- Benchmark dataset collection and annotation
+- Retrieval model evaluation
 - Hybrid retrieval implementation
-- ChromaDB indexing
-- RAG pipeline development
+- Prompt engineering for answer generation and safe abstention
+- End-to-end RAG pipeline development
 - LLaMA integration
-- Evaluation using Precision@k, Recall@k, MRR, MAP and nDCG
+- Statistical analysis of retrieval performance
+- Evaluation using Precision@k, Recall@k, MRR, MAP, nDCG, Answer Relevancy, Faithfulness, Context Precision, Context Recall, and Abstention Accuracy
+- Final capstone experiments and result analysis
 
 ---
 
@@ -104,5 +106,14 @@ NyayaRAG/
 
 Doctoral Scholar in Artificial Intelligence and Machine Learning
 
-Research Area:
-Retrieval-Augmented Generation for Legal Question Answering over Indian Supreme Court Judgments
+Research Interests:
+
+- Artificial Intelligence
+
+- Natural Language Processing
+
+- Retrieval-Augmented Generation (RAG)
+
+- Legal AI
+
+- Explainable and Responsible AI
