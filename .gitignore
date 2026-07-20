@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------
+# NYAYaRAG generated artifacts
+# ---------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# ChromaDB indexes
+models/**/chromadb/
+
+# Dense embeddings
+models/**/*_embeddings.npy
+
+# Large retrieval indices
+models/tfidf/tfidf_matrix.npz
+models/bm25/tokenized_corpus.pkl
+
+# Archived experiments
+archive/
+
+# Raw compressed dataset
+data/raw/tar/
